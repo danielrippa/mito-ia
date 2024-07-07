@@ -1,0 +1,1 @@
+call pug --pretty index.pug
