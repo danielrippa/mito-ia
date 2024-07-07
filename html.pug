@@ -1,11 +1,21 @@
 doctype
-html
+html(lang="es")
 
   head
+
+    meta(name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no")
+
+    title El Mito de la Inteligencia de las IA
 
     link(rel="stylesheet" href="dist/reset.css")
     link(rel="stylesheet" href="dist/reveal.css")
     link(rel="stylesheet" href="dist/theme/black.css")
+
+  body
+
+    block content
+
+    script(src="dist/reveal.js")
 
     script(src="plugin/notes/notes.js")
     script(src="plugin/markdown/markdown.js")
@@ -14,9 +24,3 @@ html
     script
 
       include:livescript index.ls
-
-  body
-
-    block content
-
-    script(src="dist/reveal.js")
